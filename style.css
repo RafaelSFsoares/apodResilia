@@ -1,0 +1,62 @@
+::after,*::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;    
+}
+
+body,html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+     
+    
+}
+
+
+/* #container {
+    height: 100%;
+} */
+
+#texto{
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.767));
+    font-size: larger;
+    color: white;
+}
+
+#procurar{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: turquoise;
+    color: rgb(2, 2, 2);;
+    
+}
+
+#pesquisar {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: turquoise;
+}
+
+h1 {
+    background-color: rgba(2, 2, 2, 0.774);
+    color: turquoise;
+}
+
+#procurar:hover{
+    cursor: pointer;
+    transform: scale(1.3, 1.5);
+}
+
+#procurar:active{
+    background-color: rgb(69, 211, 246) ;
+}
