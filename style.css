@@ -93,7 +93,7 @@ a:active {
     text-decoration: none; 
 }
 
-@media (max-width: 500px){
+@media (max-width: 300px){
     body {
         display:none;
         
